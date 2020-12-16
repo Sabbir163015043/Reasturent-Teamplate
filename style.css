@@ -1,0 +1,177 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+body{
+    font-family: sans-serif;
+    font-size: 15px;
+    line-height: 28px;
+}
+.header-top-area{
+    position: relative;
+}
+.header-content h2{
+    background: url('Image/line-ber.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-bottom: 76px;
+}
+.header-bg{
+    background: url('Image/imag.jpg');
+    position: absolute;
+}
+
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+}
+.header-top-area{
+    position: relative;
+}
+.header-bg{
+    background: url('Image/imag.jpg');
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #555;
+    background-color: transparent;
+}
+.navbar-default .navbar-nav > .active > a {
+    color: #fff !important;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #222;
+}
+.mainmenu ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.mainmenu ul li a {
+    color: #fff;
+    font-size: 18px;
+    padding: 40px 21px;
+}
+.mainmenu ul li.active::before {
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    content: "";
+}
+a.btn-field {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    padding: 8px 20px;
+    text-decoration: none;
+    margin-top: 33px;
+}
+
+a.btn-field::after {
+    background: #1b2121;
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+.header-content h2 {
+    font-size: 70px;
+    color: #fff;
+}
+.header-content{
+    padding: 70px 0px;
+}
+a.btn-field.btn-field-yellow::after {
+    background: #c2b47a;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: red;
+    font-size: 27px;
+    margin-top: 28px;
+}
+.navbar-default .navbar-brand {
+    color: #787372;
+    margin-top: 24px;
+}
+
+.navbar-default .navbar-nav > .active > a {
+    color: #926e6e !important;
+}
+.about-area{
+    background: url() no-repeat;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h2, h2 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+p {
+    margin: 0 0 10px;
+    color: white;
+}
+.about-area {
+    background: url('Image/all-background.jpg') no-repeat;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    margin-left: 33px;
+}
+.about-text h2 {
+    background: url('Image/line-ber.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 76px;
+}
+.about-area-3{
+    background: url('Image/backgroundt.jpg');
+}
+.about-text {
+    background: #2222228c;
+    margin: 100px 0px;
+    padding: 50px;
+}
+.about-text h2 {
+    background: url('Image/line-ber.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 60px;
+}
+
+.food-menu h5{
+    float: left
+}
+.about-area-5{
+    background: url('Image/5.jpg')
+}
+.about-text h2 {
+    background: url(Image/line-ber.png)bottom;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 60px;
+}
+.about-area-7{
+    background: url('Image/all-background.jpg')
+}
+.about-area-7 p{
+    color: black;
+}
+
+
+
